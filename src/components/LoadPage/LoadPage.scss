@@ -1,0 +1,22 @@
+.loadWrap {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   img {
+      width: 150px;
+      height: 150px;
+      animation-name: rotation;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+   }
+}
+@keyframes rotation {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}

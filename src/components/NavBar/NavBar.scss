@@ -1,0 +1,31 @@
+.navWrapper {
+   height: 64px;
+   background: #2196f3;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+   display: flex;
+   ul {
+      display: flex;
+      margin: 0 62px;
+      a {
+         text-decoration: none;
+         transition: all 0.3s ease-in-out;
+         li {
+            color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            list-style-type: none;
+         }
+         &:hover {
+            li {
+               color: #fff;
+            }
+            background: #1e88e5;
+         }
+         &.active {
+            li {
+               color: #fff;
+            }
+            background: #1e88e5;
+         }
+      }
+   }
+}
